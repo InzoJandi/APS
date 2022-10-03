@@ -4,7 +4,7 @@
 // 에라토스테네스의 체 참고 https://ko.wikipedia.org/wiki/%EC%86%8C%EC%88%98_(%EC%88%98%EB%A1%A0)
 
 const isPrime = (n) => {
-    // 1은 소수이다.
+    // 1은 소수가 아니다.
     if (n == 1) {
         return false;
     }
@@ -19,3 +19,9 @@ const isPrime = (n) => {
     }
     return true;
 };
+
+const input = require("fs").readFileSync("/dev/stdin").toString().trim();
+
+const [v, nums] = input.split("\n");
+
+console.log(nums.split(" ").filter((item) => isPrime(item)).length);
