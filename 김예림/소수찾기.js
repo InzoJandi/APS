@@ -19,3 +19,9 @@ const isPrime = (n) => {
     }
     return true;
 };
+
+const input = require("fs").readFileSync("/dev/stdin").toString().trim();
+
+const [v, nums] = input.split("\n");
+
+console.log(nums.split(" ").filter((item) => isPrime(item)).length);
