@@ -23,7 +23,6 @@ function solution(n) {
     const fib = (n) => {
         if (arr[n] !== undefined) return arr[n];
         arr[n] = fib(n - 1) + fib(n - 2);
-        console.log(arr[n])
         return arr[n];
     }
     return fib(n);
