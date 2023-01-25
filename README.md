@@ -15,6 +15,7 @@
 | 주차  |    공통 주제    |
 |:---:|:-----------:|
 |  1  | 문자열(String) |
+|  2  | 탐욕법(Greedy) |
 
 ## 일정 및 진행 방법
 
@@ -62,7 +63,6 @@
 분리된 값을 정수로 변환
 더한 값 출력
  */
-
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
