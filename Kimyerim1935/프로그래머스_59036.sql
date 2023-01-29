@@ -1,6 +1,6 @@
 /*
  * Programers
- * https://school.programmers.co.kr/learn/courses/30/lessons/42862
+ * https://school.programmers.co.kr/learn/courses/30/lessons/59036
  * Problem Number: 59036
  * Level: 1
  * Algorithm: select
