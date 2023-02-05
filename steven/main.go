@@ -13,4 +13,5 @@ func main() {
 	greedy.MaxProfit([]int{7, 1, 5, 3, 6, 4})
 	math.IsPalindrome(121)
 	sort.Solution(10, 2)
+	math.Reverse(1534236469)
 }
