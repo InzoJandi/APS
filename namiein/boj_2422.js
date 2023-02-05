@@ -42,7 +42,7 @@ const notGoodCombination = Array.from({ length: N }).map(() => Array.from({ leng
 // 만약 섞어먹으면 안 되는 조합이라면 true, 아니면 false
 for (let i = 0; i < M; i++) {
     const [first, second] = input[i].split(' ').map(Number);
-    // 1, 3 & 3, 1 모두 섰어먹으면 안 되는 조합
+    // 1, 3 & 3, 1 모두 섞어먹으면 안 되는 조합
     notGoodCombination[first - 1][second - 1] = true;
     notGoodCombination[second - 1][first - 1] = true;
 }
