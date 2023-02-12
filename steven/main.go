@@ -1,6 +1,7 @@
 package main
 
 import (
+	"APS/steven/dp"
 	"APS/steven/greedy"
 	"APS/steven/math"
 	"APS/steven/sort"
@@ -16,4 +17,5 @@ func main() {
 	sort.Solution(10, 2)
 	math.Reverse(1534236469)
 	stack.IsValid("([])]")
+	dp.GenerateParenthesis(3)
 }
