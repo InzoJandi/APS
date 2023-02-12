@@ -11,12 +11,12 @@ const N = require('fs').readFileSync('/dev/stdin').toString().trim();
 /* Pseudocode *
     0.  메모이제이션 (Memoization) 기법 사용
     1.  리스트 초기화
-    3.  1 또는 2일 때 1을 return
-        3-1.  n은 90보다 작거나 같은 수
-        3-2.  BigInt 처리를 해줘야 한다 (숫자뒤에 n을 붙이면 됨)
-    4.  계산했었던 문제라면 그대로 return
-    5.  아직 계산하지 않은 문제
-        5-1.  피보나치 결과 반환
+    2.  1 또는 2일 때 1을 return
+        2-1.  n은 90보다 작거나 같은 수
+        2-2.  BigInt 처리를 해줘야 한다 (숫자뒤에 n을 붙이면 됨)
+    3.  계산했었던 문제라면 그대로 return
+    4.  아직 계산하지 않은 문제
+        4-1.  피보나치 결과 반환
  */
 
 // 한 번 계산된 결과를 메모이제이션 (Memoization)하기 위한 리스트 초기화
