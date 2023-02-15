@@ -1,9 +1,11 @@
 package main
 
 import (
+	"APS/steven/dp"
 	"APS/steven/greedy"
 	"APS/steven/math"
 	"APS/steven/sort"
+	"APS/steven/stack"
 	"APS/steven/string"
 )
 
@@ -14,4 +16,6 @@ func main() {
 	math.IsPalindrome(121)
 	sort.Solution(10, 2)
 	math.Reverse(1534236469)
+	stack.IsValid("([])]")
+	dp.GenerateParenthesis(3)
 }
