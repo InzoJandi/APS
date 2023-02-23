@@ -14,6 +14,7 @@
 |  3  |     완전탐색(Brute Force)      |
 |  4  | 동적계획법(Dynamic Programming) |
 |  5  |         그래프(Graph)         |
+|  6  |      수학(Mathematics)       |
 
 ## 일정 및 진행 방법
 
