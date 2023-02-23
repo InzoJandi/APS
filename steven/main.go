@@ -2,6 +2,7 @@ package main
 
 import (
 	"APS/steven/dp"
+	"APS/steven/graph"
 	"APS/steven/greedy"
 	"APS/steven/math"
 	"APS/steven/sort"
@@ -18,4 +19,6 @@ func main() {
 	math.Reverse(1534236469)
 	stack.IsValid("([])]")
 	dp.GenerateParenthesis(3)
+	graph.FindJudge(3, [][]int{{1, 3}, {2, 3}})
+	graph.FindCenter([][]int{{1, 2}, {2, 3}, {4, 2}})
 }
