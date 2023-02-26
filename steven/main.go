@@ -21,4 +21,6 @@ func main() {
 	dp.GenerateParenthesis(3)
 	graph.FindJudge(3, [][]int{{1, 3}, {2, 3}})
 	graph.FindCenter([][]int{{1, 2}, {2, 3}, {4, 2}})
+	math.PlusOne([]int{1, 2, 3})
+	math.IsHappy(19)
 }
