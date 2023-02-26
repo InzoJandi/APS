@@ -23,6 +23,18 @@
 a+=b 하여 둘레를 증가
 증가량은 그 다음 수가 되기 위해 b+=6
 바퀴 수도 1 증가 count+=1
+ 
+----------------------------------------
+1 = 1
+7 = 2
+8 = 3
+13 = 3
+20 = 4
+30 = 4
+58 = 5
+65 = 6
+1417969 = 688
+1000000000 = 18258
 */
 
 const n = +`${require('fs').readFileSync('/dev/stdin')}`.trim();
@@ -41,3 +53,27 @@ function solution(n) {
 }
 
 solution(n);
+
+/**----------------------------------------
+ * 초안
+ * --------------------------------------*/
+{
+    const n = +`${require('fs').readFileSync('/dev/stdin')}`.trim();
+
+    if (n === 1) {
+        console.log(1);
+        return;
+    }
+
+    let c = 6;
+    let count = 1;
+
+    for (let i = 1; i < n; i++) {
+        if ((i - 1) / c === 1) {
+            count += 1;
+            c += 6 * count;
+        }
+    }
+
+    console.log(count + 1);
+}
