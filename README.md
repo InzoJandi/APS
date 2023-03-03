@@ -15,6 +15,7 @@
 |  4  | 동적계획법(Dynamic Programming) |
 |  5  |         그래프(Graph)         |
 |  6  |      수학(Mathematics)       |
+|  7  |         스택(Stack)          |
 
 ## 일정 및 진행 방법
 
