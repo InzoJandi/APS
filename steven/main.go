@@ -1,6 +1,7 @@
 package main
 
 import (
+	"APS/steven/array"
 	"APS/steven/dp"
 	"APS/steven/graph"
 	"APS/steven/greedy"
@@ -23,4 +24,5 @@ func main() {
 	graph.FindCenter([][]int{{1, 2}, {2, 3}, {4, 2}})
 	math.IsHappy(19)
 	sort.SearchInsert([]int{1, 2, 5, 7}, 2)
+	array.RemoveDuplicates([]int{0,0,1,1,1,2,2,3,3,4})
 }
