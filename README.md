@@ -16,6 +16,7 @@
 |  5  |         그래프(Graph)         |
 |  6  |      수학(Mathematics)       |
 |  7  |         스택(Stack)          |
+|  8  |     백트래킹(Backtracking)     |
 
 ## 일정 및 진행 방법
 
