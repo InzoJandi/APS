@@ -17,6 +17,7 @@
 |  6  |      수학(Mathematics)       |
 |  7  |         스택(Stack)          |
 |  8  |     백트래킹(Backtracking)     |
+|  9  |     투 포인터(Two Pointer)     |
 
 ## 일정 및 진행 방법
 
