@@ -24,5 +24,7 @@ func main() {
 	graph.FindCenter([][]int{{1, 2}, {2, 3}, {4, 2}})
 	math.IsHappy(19)
 	sort.SearchInsert([]int{1, 2, 5, 7}, 2)
-	array.RemoveDuplicates([]int{0,0,1,1,1,2,2,3,3,4})
+	array.RemoveDuplicates([]int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4})
+	dp.CombinationSum([]int{2, 3, 6, 7}, 7)
+	string.IsPalindrome("A man, a plan, a canal: Panama")
 }
