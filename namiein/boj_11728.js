@@ -10,7 +10,7 @@ const input = require('fs').readFileSync('/dev/stdin').toString().trim().split('
 input.shift();
 
 /* Pseudocode *
-    배열 A와 배열 B를 합친 다음 정렬해서 출력하는 프로그램!
+    배열 A와 배열 B를 합친 다음 정렬해서 출력하는 문제!
     A, B는 정렬된 배열이기 때문에 투 포인터를 적용해서 값을 비교하면 작은 수가 먼저 저장되도록
     만약 포인터 중 하나라도 먼저 배열의 끝에 도달한다면, 남아있는 값들은 result에 push함
     포인터가 모두 끝에 도달한다면 반복문 종료
