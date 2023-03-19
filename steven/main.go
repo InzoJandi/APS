@@ -28,4 +28,5 @@ func main() {
 	dp.CombinationSum([]int{2, 3, 6, 7}, 7)
 	string.IsPalindrome("A man, a plan, a canal: Panama")
 	array.Merge([]int{1, 2, 3, 0, 0, 0}, 3, []int{2, 5, 6}, 3)
+	dp.Permute([]int{1, 2, 3})
 }
