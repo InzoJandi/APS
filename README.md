@@ -18,6 +18,7 @@
 |  7  |         스택(Stack)          |
 |  8  |     백트래킹(Backtracking)     |
 |  9  |     투 포인터(Two Pointer)     |
+| 10  |     시뮬레이션(Simulation)      |
 
 ## 일정 및 진행 방법
 
