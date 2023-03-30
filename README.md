@@ -1,24 +1,25 @@
 # Algorithm Study
 
-| 기수  |    기간     |
-|:---:|:---------:|
-| 1기  | ~23/01/02 |
-| 2기  | 23/01/16~ |
+| 기수 |    기간     |
+|:--:|:---------:|
+| 1기 | ~23/01/02 |
+| 2기 | 23/01/16~ |
 
 ## 일정표
 
-| 주차  |           공통 주제            |
-|:---:|:--------------------------:|
-|  1  |        문자열(String)         |
-|  2  |        탐욕법(Greedy)         |
-|  3  |     완전탐색(Brute Force)      |
-|  4  | 동적계획법(Dynamic Programming) |
-|  5  |         그래프(Graph)         |
-|  6  |      수학(Mathematics)       |
-|  7  |         스택(Stack)          |
-|  8  |     백트래킹(Backtracking)     |
-|  9  |     투 포인터(Two Pointer)     |
-| 10  |     시뮬레이션(Simulation)      |
+| 주차 |                                공통 주제 및 문제                                |
+|:--:|:------------------------------------------------------------------------:|
+| 1  |                               문자열(String)                                |
+| 2  |                               탐욕법(Greedy)                                |
+| 3  |                            완전탐색(Brute Force)                             |
+| 4  |                        동적계획법(Dynamic Programming)                        |
+| 5  |                                그래프(Graph)                                |
+| 6  |                             수학(Mathematics)                              |
+| 7  |                                스택(Stack)                                 |
+| 8  |                            백트래킹(Backtracking)                            |
+| 9  |                            투 포인터(Two Pointer)                            |
+| 10 |                            시뮬레이션(Simulation)                             |
+| 11 | [오픈채팅방](https://school.programmers.co.kr/learn/courses/30/lessons/42888) |
 
 ## 일정 및 진행 방법
 
