@@ -6,6 +6,7 @@ import (
 	"APS/steven/graph"
 	"APS/steven/greedy"
 	"APS/steven/math"
+	"APS/steven/simulation"
 	"APS/steven/sort"
 	"APS/steven/stack"
 	"APS/steven/string"
@@ -29,4 +30,6 @@ func main() {
 	string.IsPalindrome("A man, a plan, a canal: Panama")
 	array.Merge([]int{1, 2, 3, 0, 0, 0}, 3, []int{2, 5, 6}, 3)
 	dp.Permute([]int{1, 2, 3})
+	simulation.GenerateMatrix(3)
+	array.SingleNumber([]int{1, 1, 2, 2, 3})
 }
