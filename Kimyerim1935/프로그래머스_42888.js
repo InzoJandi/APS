@@ -2,7 +2,7 @@
  * Programers
  * https://school.programmers.co.kr/learn/courses/30/lessons/42888
  * Problem Number: 42888
- * Level: 3 
+ * Level: 코딩테스트 연습
  * Algorithm: 문자열
  */
 
