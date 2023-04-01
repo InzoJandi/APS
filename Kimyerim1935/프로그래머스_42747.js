@@ -1,6 +1,6 @@
 /*
  * Programers
- * https://school.programmers.co.kr/learn/courses/30/lessons/42888
+ * https://school.programmers.co.kr/learn/courses/30/lessons/42747
  * Problem Number: 42747
  * Level: 코딩테스트 연습
  * Algorithm: 정렬
