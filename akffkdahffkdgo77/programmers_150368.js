@@ -1,9 +1,17 @@
-const SALES_LIST = [10, 20, 30, 40];
+/*
+ *  PROGRAMMERS SCHOOL
+ *  https://school.programmers.co.kr
+ *  Problem Number: 150368
+ *  Level: 2
+ *  Algorithm: Implementation
+ */
 
 /* Pseudocode *
     1. 이모티콘 m개의 할인율 배율 구하기
     2. 이모티콘 구매 비용의 합, 이모티콘 플러스 서비스 가입자 수 구하기
 */
+
+const SALES_LIST = [10, 20, 30, 40];
 
 function solution(users, emoticons) {
     // [이모티콘 플러스 서비스 가입 수, 이모티콘 매출액]
