@@ -32,4 +32,5 @@ func main() {
 	dp.Permute([]int{1, 2, 3})
 	simulation.GenerateMatrix(3)
 	array.SingleNumber([]int{1, 1, 2, 2, 3})
+	string.CountAndSay(4)
 }
