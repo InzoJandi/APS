@@ -2,6 +2,7 @@ package main
 
 import (
 	"APS/steven/array"
+	bitmanipulation "APS/steven/bit-manipulation"
 	"APS/steven/dp"
 	"APS/steven/graph"
 	"APS/steven/greedy"
@@ -33,4 +34,5 @@ func main() {
 	simulation.GenerateMatrix(3)
 	array.SingleNumber([]int{1, 1, 2, 2, 3})
 	string.CountAndSay(4)
+	bitmanipulation.HammingWeight(00000000000000000000000010000000)
 }
